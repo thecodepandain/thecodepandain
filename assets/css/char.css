@@ -1,0 +1,295 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.Aboutus
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 62, 62);
+    padding-bottom: 3%;
+    background-image: url('../images/navbar.png');
+    background-size: cover;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.Aboutus h3
+{
+    margin-top:1%;
+    font-size: 2.4rem;
+    opacity: .7;
+}
+.Aboutus h4
+{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    opacity: .7;
+}
+.aboutuspara
+{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    opacity: .8;
+
+}
+.aboutuspara p
+{
+    margin-top: 1%;
+    opacity: .7;
+   
+}
+.Aboutus h5
+{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    opacity: .7;
+}
+.Aboutus img
+{
+    width: 40%;
+    margin: auto;
+}
+.Aboutus a
+{
+    text-decoration: none;
+    margin-top: 1%;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+.firstchar
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid transparent;
+    margin: 5px 10px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 2px 4px 5px 0 rgb(16, 17, 17),0 2px 5px 2px  rgb(16,17,17);
+}
+.firstchar img 
+{
+    width: 60%;
+}
+.firstchar p
+{
+    color: black;
+}
+.charlist
+{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+.charlist h4
+{
+    font-size: 2rem;
+    opacity: .8;
+    font-family:Raleway ;
+    font-weight:bolder;
+}
+.listcard
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5%;
+}
+.listcard .paradrop 
+{
+    width: 100%;
+    border: 2px solid rgb(138, 135, 135);
+    margin-top: 1%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.listcard .paradrop  img
+{
+    float: right;
+    width: 10%;
+}
+.listcard .paradrop p
+{
+    font-weight: bold;
+    padding: .5%;
+}
+.hiddenabout
+{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    margin-top: .2%;
+    padding:.5%;    
+}
+.hiddenabout a button
+{
+    width: 8%;
+    background-color: rgb(102, 98, 98);
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.hiddenabout a  :hover
+{
+    cursor: pointer;
+    background-color: teal;
+}
+
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ background-color: #152a57; 
+   /* background-color: rgb(8, 8, 22);  */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+@media only screen and (max-width:1350px)
+{
+    .hiddenabout a button
+{
+    width: 15%;
+}
+
+    }
+@media only screen and (max-width:1090px)
+{
+    .footer
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+    {
+     width: 100%;
+    }
+    .socialmediaandourcompany
+    {
+     align-items: center;
+    }
+
+}
+@media only screen and (max-width:750px)
+{
+    .hiddenabout a button
+{
+    width: 22%;
+}
+.listcard .paradrop  img
+{
+    float: right;
+    width: 20%;
+}
+
+}
+@media only screen and (max-width:600px)
+{
+    .Aboutus h4
+    {
+        padding: 4px;
+    }
+    .aboutuspara
+    {
+                padding: 5px;
+    
+    }
+}
+@media only screen and (max-width:500px)
+{
+    .hiddenabout a button
+{
+    width: 26%;
+}}
+@media only screen and (max-width:415px)
+{
+    .hiddenabout a button
+{
+    width: 30%;
+}}
+@media only screen and (max-width:360px)
+{
+    .hiddenabout a button
+{
+    width: 50%;
+}}

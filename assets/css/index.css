@@ -1,0 +1,1180 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: AdigianaToybox;
+    src: url('Fontstyle/AdigianaUI.ttf');
+}
+a{
+    text-decoration: none!important;
+}
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    background-image: url('../images/navbar.png');
+    background-size: cover;
+    position: fixed;
+    display: flex;
+     z-index: 1000; 
+    flex-direction: row;
+}
+.navbar img
+{
+    width: 17%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+.NavbarTwo
+{
+    width: 100%;
+    height: 600px;
+    background: url('../images/Home.png'); 
+    background-size: cover;
+    text-align: center;
+}
+.NavbarTwo img
+{
+    width: 50%;
+    margin: auto;
+    margin-top: 5.5%;
+    height: 65%;
+}
+.para
+{
+    width: 50%;
+    height: auto;
+    margin-top: 1%;
+    color: white;
+    font-size:3rem;
+    font-family: AdigianaToybox;
+  
+}
+.para p
+{
+    /* border: 2px solid red; */
+    margin-left: 8%;
+}
+.shortsimple
+{
+    font-size: 4.5rem;
+}
+.parabutton
+{
+    display: flex;
+    flex-direction: row;
+}
+.buttons
+{
+   /* border: 2px solid black; */
+   width: 50%;
+   text-align: center;
+}
+.buttons button
+{
+    margin-top:6% ;
+    width: 16%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #26232e;
+    color: white;
+    font-family: AdigianaToybox;
+    font-size: 1.6rem;
+    box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 white ;
+}
+.buttons button:hover,.btns:hover
+{
+    background-color: black;
+}
+.your-class
+{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    margin-bottom: 3%;
+}
+ .container
+{
+  width: 100%;
+  height: 90px;
+  background-color: #152a57;
+}  
+.MultiCarousel 
+{ 
+  overflow: hidden; 
+  padding: 15px; 
+  width: 77.8%; 
+margin-bottom: 2%;
+height:90px;
+  position:relative;
+  margin: auto;
+ }
+    .MultiCarousel .MultiCarousel-inner 
+    { 
+      transition: 1s ease all;
+       float: left;
+       overflow: hidden; 
+       height:90px;
+       }
+        .MultiCarousel .MultiCarousel-inner .item 
+      { 
+        float: left;
+        height:90px;
+      }
+        .MultiCarousel .MultiCarousel-inner .item > div
+   {
+      text-align: center; 
+      padding:10px; 
+      margin:10px;
+      background:#f1f1f1;
+      margin-top: 0;
+      padding-bottom: 2%;
+      background-color: #152a57;
+      height:90px;
+      }
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst 
+    { position:absolute;
+       border-radius:50%;
+      top:calc(50% - 20px);
+      
+     }
+    .MultiCarousel .leftLst
+     { 
+      left:0; 
+    }
+    .MultiCarousel .rightLst 
+    {
+       right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over 
+        { 
+          pointer-events: none; 
+          background-color: #152a57; 
+        }
+    
+  .pad15
+  {
+    display: flex;
+    flex-direction: row;
+    height:90px;
+  }      
+  .pad15 img
+  {
+    margin:auto;
+    height:90px;
+    }
+  .pad15 p
+  {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    font-family: AdigianaToybox;
+    color: white;
+    height: min-content;
+    width: 100%;
+    margin: auto;
+    height:20px;
+  }
+  .pad15 a img
+  {
+    width: 90%;
+    margin-bottom: 10px;
+    height:65px;
+  
+  }
+  .pad15 a 
+  {
+    color: white;
+    height: auto;
+    font-family: AdigianaToybox;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin: auto;
+    height:90px;
+    margin-top: -14%;
+  }
+
+.AboutUs
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  background-color: whitesmoke;
+  border-bottom: 1px solid rgb(199, 197, 197);
+}
+.logopandaimage
+{
+  width: 25%;
+  text-align: center;
+  margin: auto;
+}
+.logopandaimage img
+{
+  width: 70%;
+}
+.aboutourwebsite
+{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  text-align: center;
+
+}
+.aboutusheading
+{
+  font-family: AdigianaToybox;
+  margin-top: 3%;
+  font-size: 3.5rem;
+}
+.aboutuspara
+{
+  margin-top: 1%;
+  font-size: 1.8rem;
+  color: gray;
+  font-family: AdigianaToybox;
+}
+
+.AboutUsbutton button a
+{
+  color:white;
+  text-decoration: none;
+}
+
+.AboutUsbutton button
+{
+  width:fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-family: AdigianaToybox;
+  font-size: 1.6rem;
+  box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 white ;
+}
+.AboutUsbutton button:hover
+{
+  background-color: rgb(16, 41, 16);
+}
+.ourfeatures
+{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgb(199, 197, 197);
+  text-align: center;
+  padding-bottom: 5%;
+  /* background-color: whitesmoke; */
+} 
+.featuresimges
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.featuresimges a 
+{
+    text-decoration: none;  
+}
+.features
+{
+  width: 100%;
+}
+
+.features p
+{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #131314;
+  cursor: pointer;
+}
+.features img:hover
+{
+    transform:scale(1.1);
+}
+.features img
+{
+   width: 40%;
+   height: 70%;
+   margin-top: 5%;
+   cursor: pointer;
+}
+/* carouselll */
+.charctersslider
+{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  border-bottom: 1px solid rgb(199, 197, 197);
+}
+
+.hi-slide 
+{ position: relative;
+   width: 754px; 
+   height: 292px;
+  margin: 115px auto 0;
+  margin-top: 2%;
+
+ }
+.hi-slide .hi-next, .hi-slide .hi-prev 
+{ 
+  position: absolute; 
+  top: 50%;
+   width: 40px; 
+   height: 80px; 
+   margin-top: -40px; 
+   border-radius: 5px;
+    line-height: 80px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color:whitesmoke;
+     color: black; 
+    font-weight: bold;
+     transition: all 0.6s;
+      font-size: 30px; 
+    }
+
+
+.hi-slide > ul 
+{
+   list-style: none; 
+   position: relative;
+    width: 754px;
+     height: 292px; 
+     margin: 0;
+      padding: 0;
+     }
+.hi-slide > ul > li 
+{ overflow: hidden;
+   position: absolute;
+    z-index: 0; 
+    left: 377px;
+     top: 146px; 
+     width: 0;
+      height: 0; 
+      margin: 0;
+       padding: 0; 
+       border: 2px solid transparent; 
+       box-shadow:2px 5px 6px 0 #d6d6e4 ,0 5px 6px 2px #d6d6e4 , -2px -3px 4px 0 white ;
+       border-radius: 5px;
+       background-color: #152a57;
+        cursor: pointer; 
+      }
+.hi-slide > ul > li >a> img 
+{ width: 80%; 
+  height: 60%;
+  background-color: white;
+  margin-top: 3%;
+   border: 2px solid transparent; 
+  box-shadow: 2px 5px 6px 0 rgb(224, 213, 213),0 5px 6px 2px rgb(224, 213, 213);
+ }
+
+/* WHAT OUR STUDENTS SAY--------------------------------------------------------------------------------------> */
+.REVIEWSS
+{
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.reviewfeedback
+{
+  font-family: AdigianaToybox;
+  font-size: 3.8rem;
+  padding: 5px;
+  
+}
+.imageontext1
+{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.centerd
+{
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+.centerd  img
+{
+  width: 10%;
+  height: 10%;
+}
+.centerd p
+{
+  width: max-content;
+ font-size: 2.1rem;
+  opacity: .7;
+}
+.centerd h4,h5
+{
+  color: black;
+  font-weight: bold;
+}
+/* mobile view */
+.reviewandbutton
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  display: none;
+  margin-top: 5%;
+  border-top: 1px solid rgb(199, 197, 197);
+  border-bottom: 1px solid rgb(199, 197, 197);
+  padding-bottom: 4%;
+}
+.reviewandbutton a
+{
+  text-decoration: none;
+}
+.reviewscard
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid transparent;
+    margin:auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 3px 4px 5px rgb(84, 84, 117), 0 4px 5px 3px rgb(27, 27, 37),  -4px 5px 5px rgb(27, 27, 37);
+}
+.cards p
+{
+    padding-top: 2%;
+    padding: 2%;
+    font-weight: 600;
+    opacity: .7;
+}
+.cards img
+{
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.seealls
+{
+  width: fit-content;
+}
+/* closed */
+
+
+
+.seeall
+{
+  font-size: 1.7rem;
+  color: rgb(28, 28, 51);
+  font-weight: bolder;
+  width: 15%;
+  margin: auto;
+  margin-bottom: 2%;
+  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+}
+.seeall2
+{
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+  margin-top: 3%;
+  font-size: 1.7rem;
+  color: rgb(28, 28, 51);
+  font-weight: bolder;
+  margin-bottom: 2%;
+  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+}
+
+/* CLOSED STUDENTS SAY ABOUT US------------------------------------------------------------------------------------> */
+/* CALL US CAMPUS------------------------------------------------------------> */
+.callusheadin
+{
+  background-color: whitesmoke;
+}
+
+.callusincampus
+{
+  display: flex;
+  flex-direction: row;
+   /* border: 2PX solid red;  */
+  width: 100%;
+ background-color: whitesmoke;
+ margin-top: -1%;
+ padding-top: 2%;
+ text-align: center;
+ align-items: center;
+}
+.imagesandintro
+{
+  width: 50%;
+  text-align: center;
+  /* border: 2px solid black; */
+  margin-bottom: 3%;
+}
+.imagesandintro img
+{
+  width: 80%;
+  height: 100%;
+}
+.sendmailbtn
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  align-items: center;
+}
+.sendmailbtn p
+{
+  padding: 1px;
+}
+.sendmailbtn img
+{
+  width: 15%;
+  margin-top: 5%;
+}
+.mailbutton
+{
+  margin-top: 5%;
+  width: 16%;
+  height: 40px;
+  border-radius: 16px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white!important;
+  background-color: #2b4b91;
+  box-shadow: 2px 3px 7px #23262c, 0 3px 7px 2px #23262c;
+}
+.mailbutton button
+{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  margin-top: 9%;
+}
+.mailbutton button a
+{
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+.mailbutton:hover
+{
+  background-color: #081124;
+  color:white;
+}
+
+/* ----------------------------------------------------------------------------> */
+/* OUR  CONTRIBUTORS ---------------------------------------------------------------------------> */
+.reviewsourstudents,.callusheadin
+{
+  width: 100%;
+  height: auto;
+  border-top: .4px  solid rgba(139, 139, 139, 0.6);
+  text-align: center;
+  padding-top: 4%;
+}
+.title 
+{
+  font-family: AdigianaToybox;
+  font-size: 3.8rem;
+  padding-bottom: 1%;
+}
+
+
+.testimonial{
+  margin:200px auto 100px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+  grid-gap:20px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0;  
+}
+
+.testimonial .card{
+  position:relative;
+  margin:0 auto;
+  width:300px;
+  height: 350px;
+  background:#333;
+  padding:20px;
+  box-sizing:border-box;
+  text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.5);
+  overflow:hidden;
+}
+.testimonial .card .layer{
+  position:absolute;
+  top:calc(100% - 2px);
+  left:0;
+  height:100%;
+  width:100%;
+  background:linear-gradient(#03a9f4, #e91ee3);
+  z-index:1;
+  transition:0.5s;
+ 
+}
+.testimonial .card:hover .layer{
+  top:0;
+}
+.testimonial .card .content{
+  position:relative;
+  z-index:2;
+}
+.testimonial .card .content p{
+  font-size:1.5rem;
+  line-height:20px;
+}
+.testimonial .card .content .image{
+  width:100px;
+  height:100px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+  border:4px solid #fff;
+  box-shadow:0 10px 20px
+    rgba(0,0,0,.2);
+}
+.testimonial .card .content .image img
+{
+  width: 100%;
+}
+.testimonial .card .content .details h2{
+  font-size:1.7rem;
+  font-weight: 600;
+}
+.testimonial .card .content .details span{
+  color:#03a9f4;
+  font-size:14px;
+  transition:0.5s;
+}
+.testimonial .card:hover .content .details span{
+  color:#fff;
+}
+.myaccount a 
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.meetallcontri
+{
+  margin-bottom: 2%;
+  margin-top: -6%;
+  text-align: center;
+}
+.meetallcontri a
+{
+  font-size: 1.7rem;
+  color: rgb(28, 28, 51);
+  font-weight: bolder;
+  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+}
+
+
+/* CLOSED CONTRIBUTOR DIV---------------------------------------------------------> */
+
+
+/* FOOTER-------------------------------------------------------------------------> */
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #152a57;
+  /* background-color: #3e3a46; */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+}
+
+
+/* mobile responsive characters */
+.explore
+{
+  text-align: center;
+  width: 100%;
+  padding-top: 3%;
+  font-family: AdigianaToybox;
+  font-size: 3.8rem;
+  padding-bottom: 1%;
+  display: none;
+  margin-top: 2%;
+}
+.mobilecharcters
+{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background: url('../images/characters/domino.png');
+  background-repeat: no-repeat;
+  background-size: 400px  450px;
+  background-position: center;
+  animation: slide 30s infinite;
+  margin-top: 3%;
+  display: none;
+}
+@keyframes slide 
+{
+  25% 
+  {
+    background: url('../images/characters/bokchoy.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px  450px;
+    background-position: center;
+  }
+  50% 
+  {
+    background: url('../images/characters/echo.gif');
+    background-repeat: no-repeat;
+    background-size: 400px  450px;
+    background-position: center;
+  }
+  75% 
+  {
+    background: url('../images/characters/pico.gif');
+    background-repeat: no-repeat;
+    background-size: 400px  450px;
+    background-position: center;
+  }
+  100% 
+  {
+    background: url('../images/characters/rubics.gif');
+    background-repeat: no-repeat;
+    background-size: 400px  450px;
+    background-position: center;
+  }
+}
+.mobilecharcters a button
+{
+  margin-top: 45%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgba(18, 18, 46, 0.7);
+  border-radius: 5px;
+  width: 30%;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* closed */
+/* CLOSED FOOTER---------------------------------------------------------------------------------> */
+/* MEDIA SCREEN--------------------------------------------- */
+@media only screen  and (max-width:1255px)
+{
+  .buttons button
+{
+  
+    width: 25%;
+}
+}
+@media only screen  and (max-width:1050px)
+{
+  .footercopyrightlinks
+  {
+   width: fit-content;
+   
+  }
+  .footerlogo
+  {
+    width: 16%;
+  }
+  .connectuswithsocialmedia
+  {
+    width: 50%;
+  }
+  .mailbutton
+  {
+    margin-top: 5%;
+    width: 24%;
+    height: 40px;}
+}
+
+@media only screen  and (max-width:984px)
+{
+  .REVIEWSS
+  {
+    display: none;
+  }
+  .reviewandbutton
+  {
+    display: flex;
+  }
+  .mailbutton
+  {
+    margin-bottom: 4%;
+  }
+  .charctersslider
+{
+  border-bottom: none;
+}
+  .container
+  {
+    display: none;
+  }
+  .cards
+  {
+    width: 40%;
+  }
+  .revirwsbutton
+  {
+    width: fit-content;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-bottom: 2%;
+    color: white;
+    padding: 8px;
+    background-color: rgb(24, 24, 71);
+    cursor: pointer;
+    box-shadow: 2px 4px 5px #131314;
+  }
+}
+@media  only screen and (max-width:845px) {
+  .parabutton
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4%;
+}
+.para
+  {
+    
+    width: 100%;
+
+  } 
+  .para p
+  {
+font-size: 2.9rem;
+  }
+  .buttons
+  {
+    text-align: center;
+    align-items: center;
+   
+  }
+  .buttons button
+  {
+    
+      width: 35%;
+      margin-top:-0;
+  }
+
+
+  .footer
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+  {
+   width: 100%;
+  }
+  .socialmediaandourcompany
+  {
+   align-items: center;
+  }
+  
+
+/* new */
+
+.AboutUs
+{
+flex-direction: column;
+width: 100%;
+}
+.logopandaimage
+{
+width: 100%;
+}
+.logopandaimage img
+{
+width: 30%;
+
+}
+.aboutourwebsite
+{
+width: 100%;
+}
+.NavbarTwo img
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    height: 65%;
+}
+.navbar
+{
+    width: 100%;
+    height: 60px;
+}
+.navbar img
+{
+    width: 20%;
+    margin: auto;
+    height: 50%;
+}
+  /* closed */
+}
+@media only screen  and (max-width:753px)
+{
+  .charctersslider
+  {
+    display: none;
+  }
+  .mobilecharcters,.explore
+  {
+    display: block;
+  }
+  #card1
+  {
+    display: none;
+  }
+  .cards
+  {
+    width: 70%;
+  }
+  .mailbutton
+{
+  margin-top: 5%;
+  width: 35%;
+  height: 40px;
+}
+
+@media only screen  and (max-width:600px)
+{
+
+  .navbar
+{
+    width: 100%;
+    height: 60px;
+}
+.navbar img
+{
+    width: 25%;
+    height: 50%;
+    margin:auto;
+}
+.NavbarTwo
+{
+    width: 100%;
+    height: 800px;
+}
+
+
+.NavbarTwo img
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 40%;
+    height: 35%;
+}
+.parabutton
+{
+  margin-top: 6%;
+}
+.shortsimple
+{
+    font-size: 4rem;
+}
+.buttons button
+{
+    margin-top:10% ;
+    width: 75%;
+}
+.buttons button:hover,.btns:hover
+{
+    background-color: black;
+}
+
+
+
+
+
+.featuresimges
+{
+  display: flex;
+  flex-direction: column;
+}
+  .callusincampus,.AboutUs
+  {
+    display: flex;
+    flex-direction: column;
+    /* width: 1000px; */
+}
+.AboutUs,  .callusincampus
+{
+  padding-bottom: 15%;
+  padding-top: 10%;
+}
+.logopandaimage,.aboutourwebsite
+{
+  width: 100%;
+  float:center;
+}
+
+.aboutusheading,.title 
+{
+  font-size: 3rem;
+  padding: 6px;
+}
+.aboutuspara
+{
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.callusincampus
+{
+  margin-top: -3%;
+}
+.imagesandintro
+{
+  width: 100%;
+}
+.sendmailbtn
+{
+  width: 100%;
+}
+.mailbutton
+{
+  width:34%;
+  margin-bottom: 4%;
+}
+.mailbutton button 
+{
+  margin-top: 7%;
+}
+.btn
+{
+  margin-bottom: 5%;
+}
+.container,.charctersslider,.REVIEWSS
+{
+  display: none;
+}
+}
+@media only screen and (max-width:500px)
+{
+  .navbar img
+{
+    width: 35%;
+    height: 50%;
+    margin:auto;
+}
+}
+@media only screen and (max-width:445px)
+{
+  .cards
+  {
+    width: 90%;
+  }
+  .logopandaimage img
+{
+width: 50%;
+
+}
+}
+
+
+
+
+
+
+/* CLOSED---------------------------------------------------------- */

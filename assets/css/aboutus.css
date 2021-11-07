@@ -1,0 +1,607 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body
+{
+    background-color: whitesmoke;
+    background-size: cover;
+   
+}
+
+.Aboutus
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 62, 62);
+    padding-bottom: 3%;
+    background-image: url('../images/navbar.png');
+    background-size: cover;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.Aboutus h3
+{
+    margin-top:1%;
+    font-size: 2.4rem;
+    opacity: .7;
+}
+.Aboutus h4
+{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    opacity: .7;
+}
+.aboutuspara
+{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    opacity: .8;
+
+}
+.aboutuspara p
+{
+    margin-top: 1%;
+    opacity: .7;
+   
+}
+.Aboutus h5
+{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    opacity: .7;
+}
+.Aboutus img
+{
+    width: 40%;
+    margin: auto;
+}
+.Aboutus a
+{
+    text-decoration: none;
+    margin-top: 1%;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+}
+.MissionVission
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    color: black;
+    background-size: cover;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(65, 62, 62);
+
+
+}
+.missionimage
+{
+    width: 40%;
+    text-align: center;
+}
+.missionimage img
+{
+    width: 70%;
+    margin-top: 10%;
+}
+.missionpara
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.missionpara h3
+{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-top: 5%; 
+    opacity: .7;
+}
+.missionpara h4{
+    font-size: 1.9rem;
+    margin-top: 1%;
+}
+.missionpara p
+{
+    font-size: 1.1rem;
+    margin-top: 2%;
+}
+.whycharacterused
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align:center;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.whycharacterused h3
+{
+    font-size: 2rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    opacity: .8;
+}
+.whycharacterused img
+{
+    width: 20%;
+    margin: auto;
+}
+.whycharacterused p
+{
+    padding: 2%;
+    opacity: .8;
+    padding-bottom: 3%;
+    font-size: 1.1rem;
+}
+.meeetourteam
+{
+    width: 100%;
+    color: black;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1%;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.meeetourteam h4
+{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+.teammates,.teammates2
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.teammates2
+{
+    display:none;
+    transition: all 1.3s ease-in-out;
+}
+#downcart
+{
+    cursor: pointer;
+}
+#check
+{
+    display: none;
+}
+#check:checked~.teammates2
+{
+    display: flex;
+}
+.contactme
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.contactme a
+{
+    margin: 0 6px;
+    margin-top: 1%;
+    color: black;
+}
+.contactme a:hover
+{
+    transform: scale(1.1);
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    border :2px solid transparent ;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+.first img
+{
+    width: 65%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+}
+
+ section
+ {
+    /* background-image: url(../images/Home.png); */
+    background-size: cover;
+    color: black;
+    /* border-bottom: 1px solid rgb(65, 62, 62); */
+    padding-bottom: 2%;
+ }
+
+h1{
+    margin:50px 0 30px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.fa-container{
+    width: 50%;
+    margin:0 auto;
+}
+.faq{
+    background-color:transparent;
+    border: 1px solid #9fa4a8;
+    border-radius:10px;
+    margin: auto;
+    padding:30px;
+    width: 90%;
+    position:relative;
+    overflow:hidden;
+    transition: 0.3s ease;
+    margin-top: .2%;
+}
+.faq.active{
+  
+    box-shadow:O 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.faq.active::before, 
+.faq.active::after{
+    content:"\f075";
+    font-family: "Font Awesome 5 Free";
+    color:#2ecc71;
+    font-size:7rem;
+    position:absolute;
+    opacity:0.2;
+    top:20px;
+    left:20px;
+    z-index:0;
+
+}
+.faq.active::before{
+    color:#3498db;
+    top:-10px;
+    left:-30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title{
+
+    height: min-content;
+}
+.faq-text{
+    display:none;
+    height: min-content;
+}
+.faq.active .faq-text{
+    display:block;
+}
+.faq-toggle{
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+    position: absolute;
+    top: 30px;
+    right:30px;
+    height:30px;
+    width:30px;
+    color: #070606;
+}
+.faq-toggle:focus{
+outline:0;
+}
+.faq-toggle .fa-times{
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times{
+    display: block;
+    color: black;
+}
+
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none;
+}
+.faq.active .faq-toggle{
+    background-color: #9FA4A8;
+}
+
+
+
+
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ background-color: #152a57; 
+   /* background-color: rgb(8, 8, 22);  */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+@media only screen and (max-width:1090px)
+{
+    .footer
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+    {
+     width: 100%;
+    }
+    .socialmediaandourcompany
+    {
+     align-items: center;
+    }
+    
+    .first 
+    {
+        width: 22%;
+    }
+    .first img
+    {
+        width: 70%;
+        height: 120px;
+        margin-top: 6%;
+        margin-bottom: 4%;
+        border-radius: 5px;
+        box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+    
+    }
+    .first img
+{
+    width: 80%;
+    height: 180px;}
+
+}
+
+@media only screen and (max-width:920px)
+{
+    .teammates
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.first
+{
+    width: 35%;
+}
+.first img
+{
+    width: 75%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+
+@media only screen and (max-width:710px)
+{
+
+.first
+{
+    width: 45%;
+}
+.first img
+{
+    width: 70%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+} 
+
+
+@media only screen and (max-width:600px)
+{
+    .Aboutus h4
+    {
+        padding: 4px;
+    }
+    .aboutuspara
+    {
+                padding: 5px;
+    
+    }
+
+    .MissionVission
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.missionimage
+{
+    width: 100%;
+}
+.missionpara
+{
+    width: 100%;
+    padding: 15px;
+}
+.missionpara h4{
+    font-size: 1.7rem;
+    opacity: .8;
+}
+.missionpara p
+{
+    font-size: 1.2rem;
+    opacity: .9;
+}
+
+.whycharacterused img
+{
+    width: 60%;
+    margin: auto;
+}
+.whycharacterused p
+{
+    padding: 2%;
+    opacity: .8;
+    padding-bottom: 3%;
+    font-size: 1.1rem;
+}
+
+.teammates,.teammates2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.teammates2
+{
+    display:none;
+    transition: all 1.3s ease-in-out;
+}
+#downcart
+{
+    cursor: pointer;
+}
+#check
+{
+    display: none;
+}
+#check:checked~.teammates2
+{
+    display: flex;
+}
+.first
+{
+    width: 50%;
+}
+.first img
+{
+    width: 70%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+.faq
+{
+    width: 97%;
+}
+
+.faq-container  {
+
+    height: min-content;
+    margin: 3px;
+}
+.faq-toggle
+{
+    margin-right: -30px;
+}
+
+
+}
+@media only screen and (max-width:466px) and (min-width:431px)
+{
+    .first
+    {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:430px) and (min-width:401px)
+{
+    .first
+    {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    .first
+    {
+        width: 75%;
+    }
+}

@@ -1,0 +1,326 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: whitesmoke;
+     /* background-image: url('/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  */
+}
+a{
+  text-decoration: none!important;
+}
+a:hover{
+  color: white!important;
+}
+.Aboutus
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+ background-image: url('../images/navbar.png'); 
+    background-size: cover;
+    
+}
+.Aboutus h3
+{
+    margin-top:1%;
+    font-size: 3.9rem;
+    opacity: .7;
+    font-weight: bold;
+}
+.Aboutus h4
+{
+    margin-top: 1%;
+    font-size: 2.5rem;
+    opacity: .7;
+    font-weight: bold;
+}
+
+.Aboutus h5
+{
+    font-size: 2.3rem;
+    margin-top: 1%;
+    opacity: .7;
+}
+.Aboutus img
+{
+    width: 40%;
+    margin: auto;
+}
+.Aboutus a
+{
+    text-decoration: none;
+    margin-top: 1%;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.testimonial
+{
+    margin:200px auto 100px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    grid-gap:20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2%;  
+    border-bottom: .2px solid gray;
+    padding-bottom: 3%;
+  }
+  
+  .testimonial .card  {
+    position:relative;
+    margin:0 auto;
+    width:300px;
+    height: 350px;
+    padding:20px;
+    color: white;
+    box-sizing:border-box;
+    text-align:center;
+    box-shadow:0 10px 40px rgba(0,0,0,.5);
+    overflow:hidden;
+    border-bottom-right-radius:20px;
+    border-top-left-radius:20px;
+    background:linear-gradient(#152a57,rgb(59, 58, 58));
+  }
+  /* .testimonial .card .layer{
+    position:absolute;
+    top:calc(100% - 2px);
+    left:0;
+    height:100%;
+    width:100%;
+    background:linear-gradient(#03a9f4, #e91ee3);
+    z-index:1;
+    transition:0.5s;
+   
+  } */
+  /* .testimonial .card:hover .layer{
+    top:0;
+  } */
+  .testimonial .card .content{
+    position:relative;
+    z-index:2;
+  }
+  .testimonial .card .content p {
+    font-size:1.5rem;
+    line-height:20px;
+  }
+  .testimonial .card .content .image {
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+    border:4px solid #fff;
+    box-shadow:0 10px 20px
+      rgba(0,0,0,.2);
+  }
+  .testimonial .card .content .image img
+   {
+    width: 100%;
+  }
+  .testimonial .card .content .details h2{
+    font-size:1.7rem;
+    font-weight: 600;
+  }
+  .testimonial .card .content .details span{
+    color:white;
+    font-size:14px;
+    transition:0.5s;
+  }
+
+  .myaccount a 
+  {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+  }
+
+  .ConnectWithus
+  {
+      width: 100%;
+      text-align: center;
+      margin-top: -2%;
+      font-size: 3.5rem;
+      color: black;
+      font-weight: bolder;
+    opacity: .8;
+  }
+
+  form
+  {
+      
+      padding: 25px;
+      width: 50%;
+      margin: auto;
+      margin-bottom: 2%;
+      
+  }
+  .formm form p {
+    width: auto;
+    margin: auto;
+    margin-top: 1%;
+  }
+  .formm  form input {
+    display: block;
+    width:100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
+  }
+  
+  .formm  form button {
+   margin-top: 1.5%;
+    padding: 5px;
+    width: 100px;
+    background-color: #45FF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(10, 20, 39)
+  }
+  .formm  form button:hover
+  {background-color: #152a57;}
+
+textarea
+{
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
+    
+}
+  .footer
+  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   background-color: #152a57; 
+     /* background-color: rgb(8, 8, 22);  */
+     margin-bottom: .1%;
+     border-bottom:2px solid black;
+  }
+  .footerlogo
+  {
+   width: 8%;
+   text-align: center;
+   border-right: .1px solid rgb(248, 244, 244,.4);
+  }
+  
+  .footerlogo img
+  {
+    width: 70px; 
+  
+  }
+  .footercopyrightlinks
+  {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  padding-bottom: .5%;
+  }
+  .footerlinks
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .footerlinks a, .footercopyrightlinks a
+  {
+    margin: 2px 5px;
+    color: whitesmoke;
+    opacity: .8;
+    text-decoration: none;
+  }
+  .socialmediaandourcompany
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 70%;
+    align-items: flex-end;
+    padding-bottom: .5%;
+  }
+  .connectuswithsocialmedia
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  .connectuswithsocialmedia a ,.socialmediaandourcompany a
+  {
+    margin: 2px 5px;
+    color: whitesmoke;
+    opacity: .8;
+    text-decoration: none;
+  }
+
+  
+ 
+
+   @media only screen and (max-width:1090px)
+   {
+       .footer
+       {
+         display: flex;
+         flex-direction: column;
+       }
+       .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+       {
+        width: 100%;
+       }
+       .socialmediaandourcompany
+       {
+        align-items: center;
+       }
+   }  
+
+@media only screen and (max-width:700px)
+{
+    form
+    {
+       
+        width: 80%;}
+}
+
+
+   @media only screen and (max-width:600px)
+   {
+       .Aboutus h4,  .Aboutus h3,  .Aboutus h5
+       {
+           padding: 7px;
+       }
+       .formm  form button 
+       {
+           margin-top: 3%;
+       }
+    
+    }
+
+    @media only screen and (max-width:430px)
+{
+    form
+    {
+       
+        width: 100%;}
+}
+
+
+  
+
+ /* closed */

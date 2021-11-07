@@ -1,0 +1,363 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: whitesmoke;
+}
+.Aboutus
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 62, 62);
+    padding-bottom: 3%;
+    background-image: url('../images/navbar.png');
+    background-size: cover;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.Aboutus h3
+{
+    margin-top:1%;
+    font-size: 2.4rem;
+    opacity: .7;
+}
+.Aboutus h4
+{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    opacity: .7;
+}
+.aboutuspara
+{
+    margin-top: 2%;
+    font-size: 1.1rem;
+    opacity: .8;
+
+}
+.aboutuspara p
+{
+    margin-top: 1%;
+    opacity: .7;
+   
+}
+.Aboutus h5
+{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    opacity: .7;
+}
+.Aboutus img
+{
+    width: 40%;
+    margin: auto;
+}
+.Aboutus a
+{
+    text-decoration: none;
+    margin-top: 1%;
+    color: #fff;
+    width: fit-content;
+    margin: auto;
+}
+.reviewscard
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+
+}
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 2px solid transparent;
+    margin: 5px 15px;
+    text-align: center;
+    margin-top: 3%;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 3px 4px 5px rgb(84, 84, 117), 0 4px 5px 3px rgb(27, 27, 37),  -4px 5px 5px rgb(27, 27, 37);
+}
+.cards p
+{
+    padding-top: 2%;
+    padding: 2%;
+    font-weight: 600;
+    opacity: .7;
+}
+.cards img
+{
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.ConnectWithus
+{
+    width:100%;
+    text-align: center;
+    color: black;
+    margin: auto;
+    font-weight: bolder;
+    margin-top: 3%;
+  opacity: .7;
+  height: auto;
+  font-size:2.4rem;
+  padding: 4px;
+}
+form
+{
+    
+    padding: 25px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    
+}
+.formm form p {
+  width: auto;
+  margin: auto;
+  margin-top: 1%;
+}
+.formm  form input {
+  display: block;
+  width:100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
+}
+
+.formm  form button {
+ margin-top: 1.5%;
+  padding: 5px;
+  width: 100px;
+  background-color: #45FF;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(10, 20, 39)
+}
+textarea
+{
+    width: 100%;
+    height: 200px;
+    box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
+    
+}
+.formm  form button:hover
+{background-color: #152a57;}
+
+
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ background-color: #152a57; 
+   /* background-color: rgb(8, 8, 22);  */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+
+@media only screen and (max-width:1090px)
+{
+    .footer
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+    {
+     width: 100%;
+    }
+    .socialmediaandourcompany
+    {
+     align-items: center;
+    }}
+    @media only screen and (max-width:1090px)
+    {
+        .reviewscard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 2px solid transparent;
+    margin: 5px 15px;
+    text-align: center;
+    margin-top: 3%;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 3px 4px 5px rgb(84, 84, 117), 0 4px 5px 3px rgb(27, 27, 37),  -4px 5px 5px rgb(27, 27, 37);
+}
+.cards p
+{
+    padding-top: 2%;
+    padding: 2%;
+    font-weight: 600;
+    opacity: .7;
+}
+.cards img
+{
+    width: 30%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+    }
+
+
+@media only screen and (max-width:750px)
+{
+    .cards
+{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}}
+
+    @media only screen and (max-width:700px)
+{
+    form
+    {
+       
+        width: 88%;}
+}
+
+@media only screen and (max-width:600px)
+{
+    .Aboutus h4
+    {
+        padding: 4px;
+    }
+    .aboutuspara
+    {
+                padding: 5px;
+    
+    }
+    .cards
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .formm  form button 
+    {
+        margin-top: 3%;
+    }
+    .cards img
+    {
+        width:30%;
+    }
+}
+
+
+@media only screen and (max-width:500px) 
+{
+    form
+    {
+       
+        width: 98%;}
+}
+@media only screen and (max-width:450px)
+{
+    .cards
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width:400px)
+{
+    .cards
+    {
+        width: 85%;
+        }
+
+            .cards
+            {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+            }
+        }
+    
+    
