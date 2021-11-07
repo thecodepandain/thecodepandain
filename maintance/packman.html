@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+		Under Maintenance
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<meta property="fb:app_id" content="381783673382023" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style type="text/css">
+      @font-face {
+	    font-family: 'Serif';
+	    font-weight: normal;
+	    font-style: normal;
+      }
+      #pacman {
+        height:450px;
+        width:342px;
+        margin:20px auto;
+      }
+	  </style>
+
+</head>
+<body>
+	<div class="container">
+		<img src="images/logo.jpg">
+		<div class="box">
+			<div id="pacman"></div>
+			<button class="contact"><a href="mailto:thecodepanda.in@gmail.com">Contact us</a></button>
+		</div>
+	</div>
+
+	<script src="pacman.js"></script>
+	<script src="modernizr-1.5.min.js"></script>
+	<script>
+	var el = document.getElementById("pacman");
+
+	if (Modernizr.canvas && Modernizr.localstorage && 
+		Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+	  window.setTimeout(function () { PACMAN.init(el, "./"); }, 0);
+	} else { 
+	  el.innerHTML = "Sorry, needs a decent browser<br /><small>" + 
+		"(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+	}
+	</script>
+</body>
+</html>
