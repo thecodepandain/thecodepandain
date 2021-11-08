@@ -83,6 +83,7 @@
     cursor: pointer;
     align-items: center;
     box-shadow: 2px 4px 5px 0 rgb(16, 17, 17),0 2px 5px 2px  rgb(16,17,17);
+    border-radius: 50px;
 }
 .firstchar img 
 {
