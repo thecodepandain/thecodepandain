@@ -100,17 +100,19 @@ body
     flex-direction: column;
     width: 60%;
 }
-.missionpara h3
+.vision_mission 
 {
     text-align: center;
     font-size: 2.4rem;
     font-weight: bolder;
-    margin-top: 5%; 
+    margin: 3% 0%; 
     opacity: .7;
 }
-.missionpara h4{
+.missionpara h4
+{
     font-size: 1.9rem;
     margin-top: 1%;
+    color: midnightblue;
 }
 .missionpara p
 {
@@ -157,6 +159,7 @@ body
 {
     text-align: center;
     font-size: 2rem;
+    color: #6c757d;
     padding-bottom: 2%;
 }
 .teammates,.teammates2
@@ -582,6 +585,10 @@ padding-bottom: .5%;
     margin-right: -30px;
 }
 
+#faq_h1
+{
+    color: #6c757d;
+}
 
 }
 @media only screen and (max-width:466px) and (min-width:431px)
@@ -604,4 +611,6 @@ padding-bottom: .5%;
     {
         width: 75%;
     }
+}
+}
 }
