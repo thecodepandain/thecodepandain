@@ -14,9 +14,7 @@ body
 a{
   text-decoration: none!important;
 }
-a:hover{
-  color: white!important;
-}
+
 .Aboutus
 {
     display: flex;
@@ -42,7 +40,7 @@ a:hover{
     margin-top: 1%;
     font-size: 2.5rem;
     opacity: .7;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 .Aboutus h5
@@ -64,7 +62,10 @@ a:hover{
     width: fit-content;
     margin: auto;
 }
-
+.Aboutus a:hover
+{
+  color: #2ecc71;
+}
 
 .testimonial
 {
@@ -113,7 +114,7 @@ a:hover{
     z-index:2;
   }
   .testimonial .card .content p {
-    font-size:1.5rem;
+    font-size:  11px;
     line-height:20px;
   }
   .testimonial .card .content .image {
@@ -132,7 +133,7 @@ a:hover{
   }
   .testimonial .card .content .details h2{
     font-size:1.7rem;
-    font-weight: 600;
+    font-weight: 100;
   }
   .testimonial .card .content .details span{
     color:white;
@@ -170,7 +171,8 @@ a:hover{
   .formm form p {
     width: auto;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 4%;
+    font-size: 14px;
   }
   .formm  form input {
     display: block;
@@ -206,6 +208,7 @@ textarea
     display: flex;
     flex-direction: row;
     width: 100%;
+    font-size: 13px;
    background-color: #152a57; 
      /* background-color: rgb(8, 8, 22);  */
      margin-bottom: .1%;

@@ -1,0 +1,121 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: AdigianaToybox;
+    src: url('Fontstyle/AdigianaUI.ttf');
+}
+.nav
+{
+    background-image: url('../images/navbar.png');
+    width: 100%;
+    height: 80px;
+}
+.container-outer nav img
+{
+    width: 17%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+#buttons
+{
+  width: 50%;
+  text-align: center;
+}
+#buttons button
+{
+  margin-top:3% ;
+  width: 16%;
+  margin-left: 127%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  color: #26232e;
+  font-family: AdigianaToybox;
+  font-size: 1.5rem;
+  box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 black ;
+}
+#buttons button:hover
+{
+  background-color: #26232e;
+  color: white;
+}
+
+
+/* FOOTER-------------------------------------------------------------------------> */
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #152a57;
+  /* background-color: #3e3a46; */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+   font-family:'Mochiy Pop One', sans-serif;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+}

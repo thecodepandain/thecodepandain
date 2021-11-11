@@ -33,6 +33,7 @@ body
     margin-top: 1%;
     font-size: 1.5rem;
     opacity: .7;
+    font-weight: 100;
 }
 .aboutuspara
 {
@@ -66,6 +67,10 @@ body
     width: fit-content;
     margin: auto;
 }
+.Aboutus a:hover
+{
+  color: #2ecc71;
+}
 .reviewscard
 {
     display: flex;
@@ -84,16 +89,19 @@ body
     margin: 5px 15px;
     text-align: center;
     margin-top: 3%;
+    padding: 2rem;
     align-items: center;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 3px 4px 5px rgb(84, 84, 117), 0 4px 5px 3px rgb(27, 27, 37),  -4px 5px 5px rgb(27, 27, 37);
+    background: linear-gradient(-134deg, grey, transparent,royalblue);
 }
 .cards p
 {
     padding-top: 2%;
     padding: 2%;
-    font-weight: 600;
+    font-weight: 100;
+    font-size: 12px;
     opacity: .7;
 }
 .cards img
@@ -128,13 +136,18 @@ form
 .formm form p {
   width: auto;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 4%;
+  font-size: 14px;
+  font-weight: bold;
+
 }
 .formm  form input {
   display: block;
   width:100%;
   padding: 10px;
+  margin-top: 8px;
   border-radius: 6px;
+  outline: none;
   border: 2px solid transparent;
   box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
 }
@@ -142,6 +155,7 @@ form
 .formm  form button {
  margin-top: 1.5%;
   padding: 5px;
+  cursor: pointer;
   width: 100px;
   background-color: #45FF;
   border: none;
@@ -149,6 +163,12 @@ form
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(10, 20, 39)
 }
+.formm  form button:hover
+{
+    background-color: #152a57;
+    transition: background-color 0.4s ;
+}
+
 textarea
 {
     width: 100%;
@@ -156,8 +176,6 @@ textarea
     box-shadow: 2px 2px 5px rgb(44, 44, 44), 2px 2px 2px rgb(44, 44, 44); 
     
 }
-.formm  form button:hover
-{background-color: #152a57;}
 
 
 .footer
@@ -165,6 +183,7 @@ textarea
   display: flex;
   flex-direction: row;
   width: 100%;
+  font-size: 14px;
  background-color: #152a57; 
    /* background-color: rgb(8, 8, 22);  */
    margin-bottom: .1%;
@@ -204,6 +223,7 @@ padding-bottom: .5%;
   opacity: .8;
   text-decoration: none;
 }
+
 .socialmediaandourcompany
 {
   display: flex;

@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
 body
 {
     background-color: whitesmoke;
     background-size: cover;
+    font-size:13px !important;
    
 }
 
@@ -41,8 +42,9 @@ body
 .aboutuspara
 {
     margin-top: 2%;
-    font-size: 1.1rem;
+    font-size: 15px;
     opacity: .8;
+    line-height: 1.6;
 
 }
 .aboutuspara p
@@ -69,6 +71,10 @@ body
     color: #fff;
     width: fit-content;
     margin: auto;
+}
+.Aboutus a:hover
+{
+    color: #2ecc71 !important;
 }
 .MissionVission
 {
@@ -100,22 +106,25 @@ body
     flex-direction: column;
     width: 60%;
 }
-.missionpara h3
+.vision_mission 
 {
     text-align: center;
     font-size: 2.4rem;
     font-weight: bolder;
-    margin-top: 5%; 
+    margin: 3% 0%; 
     opacity: .7;
 }
-.missionpara h4{
+.missionpara h4
+{
     font-size: 1.9rem;
     margin-top: 1%;
+    color: midnightblue;
 }
 .missionpara p
 {
-    font-size: 1.1rem;
+    font-size: 15px;
     margin-top: 2%;
+    font-family: cursive;
 }
 .whycharacterused
 {
@@ -140,9 +149,8 @@ body
 .whycharacterused p
 {
     padding: 2%;
-    opacity: .8;
     padding-bottom: 3%;
-    font-size: 1.1rem;
+    font-size: 15px;
 }
 .meeetourteam
 {
@@ -157,6 +165,7 @@ body
 {
     text-align: center;
     font-size: 2rem;
+    color: #6c757d;
     padding-bottom: 2%;
 }
 .teammates,.teammates2
@@ -513,7 +522,7 @@ padding-bottom: .5%;
 }
 .missionpara p
 {
-    font-size: 1.2rem;
+    font-size: 13px;
     opacity: .9;
 }
 
@@ -527,7 +536,7 @@ padding-bottom: .5%;
     padding: 2%;
     opacity: .8;
     padding-bottom: 3%;
-    font-size: 1.1rem;
+    font-size: 13px;
 }
 
 .teammates,.teammates2
@@ -582,6 +591,10 @@ padding-bottom: .5%;
     margin-right: -30px;
 }
 
+#faq_h1
+{
+    color: #6c757d;
+}
 
 }
 @media only screen and (max-width:466px) and (min-width:431px)
@@ -604,4 +617,6 @@ padding-bottom: .5%;
     {
         width: 75%;
     }
+}
+}
 }
