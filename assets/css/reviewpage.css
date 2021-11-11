@@ -33,6 +33,7 @@ body
     margin-top: 1%;
     font-size: 1.5rem;
     opacity: .7;
+    font-weight: 100;
 }
 .aboutuspara
 {
@@ -65,6 +66,10 @@ body
     color: #fff;
     width: fit-content;
     margin: auto;
+}
+.Aboutus a:hover
+{
+  color: #2ecc71;
 }
 .reviewscard
 {
@@ -132,7 +137,7 @@ form
   width: auto;
   margin: auto;
   margin-top: 4%;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 
 }
@@ -178,6 +183,7 @@ textarea
   display: flex;
   flex-direction: row;
   width: 100%;
+  font-size: 14px;
  background-color: #152a57; 
    /* background-color: rgb(8, 8, 22);  */
    margin-bottom: .1%;

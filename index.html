@@ -5,7 +5,7 @@
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-
+  <link href='https://thecodepanda.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
   <!-- SEO TAGS-->
   <title>The Code Panda - Practice Problem With Stories</title>
   <meta name="description" content="Grab Lots of practice programming problem for your programming skills from beginner level to advance level. Best way to learn any new programming language and practice with lots of practice programming problems online.">
@@ -29,14 +29,33 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <!--End SEO Tags-->
 
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+   <!-- End Google Fonts -->
+  
+
 </head>
 
 <body>
   <!-- Fixed Navigation Bar------------------------------------>
   <nav>
     <div class="navbar">
+      <!-- Progress BAR -->
+
+      <!-- <div class="progress-container" style="height: 10px; width: 100%; background-color:#3333; position: fixed !important;">
+      <div class="progress-bar" id="myBar" style="height: 10px;
+      background: #04AA6D;
+      width: 0%;"></div>
+      </div> -->
+
+      <!-- END PROGRESS BAR -->
       <img src="assets/images/logo.jpg">
-   
+      
+      <div id="buttons">
+        <a href="#"><button> Learn</button></a>
+        </div>
     </div>
   </nav>
   <!-- Main Page---------------------------------- -->
@@ -343,6 +362,7 @@
           <a href="index.html">Home</a>
           <a href="aboutus.html">About</a>
           <a href="Reviewspage.html">Feedback</a>
+          <a href="roadmap.html">Roadmap</a>
           <a href="Contributor.html">Contribute</a>
         </div>
         <a href="index.html">© 2020 The Code Panda</a>
@@ -373,6 +393,21 @@
     });
   </script>
   <!-- closed----------------------------------------- -->
+
+  <!--PROGRESS BAR SCRIPT  -->
+  <script>
+
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+<!-- END SCRIPT PROGRESS -->
 </body>
 
 </html>

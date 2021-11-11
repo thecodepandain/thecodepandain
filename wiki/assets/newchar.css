@@ -69,7 +69,8 @@
 .info1 p {
   padding-top: 1%;
   padding: 10px;
-  font-size: 17px;
+  font-size: 15px;
+  font-family: cursive;
 }
 .info1 {
   margin-top: 0;
@@ -83,7 +84,7 @@
 .info1 h3 {
   font-size: 1.9rem;
   padding: 10px;
-  font-weight: bolder;
+  font-weight:100;
   font-family: 'Mochiy Pop One', sans-serif;
 }
 .lowerprofile {
@@ -144,9 +145,14 @@
 }
 .aboutus h4 {
   font-size: 2.2rem;
-  font-weight: bold;
+  font-weight: 100;
   text-align: center;
   font-family: 'Mochiy Pop One', sans-serif;
+}
+.aboutus p
+{
+ font-family: cursive;
+ font-size: 17px;
 }
 
 .MultiCarousel {

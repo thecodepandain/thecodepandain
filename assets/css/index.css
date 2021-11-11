@@ -94,6 +94,34 @@ a{
 {
     background-color: black;
 }
+
+#buttons
+{
+  width: 50%;
+  text-align: center;
+}
+#buttons button
+{
+  margin-top:3% ;
+  width: 16%;
+  margin-left: 127%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  color: #26232e;
+  font-family: AdigianaToybox;
+  font-size: 2.3rem;
+  box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 black ;
+}
+#buttons button:hover
+{
+  background-color: #26232e;
+  color: white;
+}
+
 .your-class
 {
     width: 100%;
@@ -723,6 +751,7 @@ height:90px;
   /* background-color: #3e3a46; */
    margin-bottom: .1%;
    border-bottom:2px solid black;
+   font-family:'Mochiy Pop One', sans-serif;
 }
 .footerlogo
 {
@@ -745,6 +774,7 @@ width: 30%;
 text-align: center;
 align-items: center;
 padding-bottom: .5%;
+font-size: 13px;
 
 }
 .footerlinks
@@ -766,6 +796,7 @@ padding-bottom: .5%;
   width: 70%;
   align-items: flex-end;
   padding-bottom: .5%;
+  font-size: 13px;
 }
 .connectuswithsocialmedia
 {
@@ -1083,6 +1114,13 @@ width: 100%;
 .buttons button:hover,.btns:hover
 {
     background-color: black;
+}
+
+#buttons button
+{
+margin-top: 3%;
+width: 30%;
+margin-left: 40%;
 }
 
 
