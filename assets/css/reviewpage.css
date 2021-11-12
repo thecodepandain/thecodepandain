@@ -53,6 +53,7 @@ body
     font-size: 1.3rem;
     margin-top: 1%;
     opacity: .7;
+    font-weight: 100;
 }
 .Aboutus img
 {
@@ -325,6 +326,15 @@ padding-bottom: .5%;
     .Aboutus h4
     {
         padding: 4px;
+        font-size: 20px;
+    }
+    .Aboutus h3
+    {
+        font-size: 30px;
+    }
+    .Aboutus h5
+    {
+        font-size: 18px;
     }
     .aboutuspara
     {
@@ -344,6 +354,10 @@ padding-bottom: .5%;
     .cards img
     {
         width:30%;
+    }
+    .ConnectWithus 
+    {
+        font-size: 1.7rem;
     }
 }
 

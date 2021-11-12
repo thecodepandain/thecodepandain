@@ -312,6 +312,19 @@ textarea
        {
            margin-top: 3%;
        }
+       .Aboutus h3
+       {
+         font-size: 30px;
+       }
+       .Aboutus h4
+       {
+         font-size: 20px;
+       }
+       .Aboutus h5
+       {
+       font-size: 18px;
+       }
+
     
     }
 

@@ -493,10 +493,12 @@ padding-bottom: .5%;
     .Aboutus h4
     {
         padding: 4px;
+        font-size: 18px;
     }
     .aboutuspara
     {
                 padding: 5px;
+                font-size: 14px;
     
     }
 
@@ -523,7 +525,7 @@ padding-bottom: .5%;
 .missionpara p
 {
     font-size: 13px;
-    opacity: .9;
+    opacity: 1;
 }
 
 .whycharacterused img
@@ -591,9 +593,10 @@ padding-bottom: .5%;
     margin-right: -30px;
 }
 
-#faq_h1
+#faq_h1 h1
 {
     color: #6c757d;
+    font-size: 25px !important;
 }
 
 }
