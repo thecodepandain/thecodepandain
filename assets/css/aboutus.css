@@ -124,7 +124,7 @@ body
 {
     font-size: 15px;
     margin-top: 2%;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .whycharacterused
 {
@@ -596,7 +596,7 @@ padding-bottom: .5%;
 #faq_h1 h1
 {
     color: #6c757d;
-    font-size: 25px !important;
+    font-size: 23px !important;
 }
 
 }
@@ -620,6 +620,11 @@ padding-bottom: .5%;
     {
         width: 75%;
     }
+    #faq_h1 h1
+{
+    color: #6c757d;
+    font-size: 23px !important;
+}
 }
 }
 }

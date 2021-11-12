@@ -208,6 +208,7 @@ display: flex;
 flex-direction: column;
 justify-content: end;
 width: 30%;
+font-size: 13px;
 text-align: center;
 align-items: center;
 padding-bottom: .5%;
