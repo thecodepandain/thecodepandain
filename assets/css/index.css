@@ -14,7 +14,7 @@ a{
 .navbar
 {
     width: 100%;
-    height: 80px;
+    height: 87px;
     background-image: url('../images/navbar.png');
     background-size: cover;
     position: fixed;
@@ -24,10 +24,10 @@ a{
 }
 .navbar img
 {
-    width: 17%;
-    height: 50%;
-    margin-left: 2%;
-    margin-top: 1.5%;
+  width: 17%;
+  height: 73%;
+  margin-left: 2%;
+  margin-top: 0.8%;
 }
 
 .NavbarTwo
@@ -78,21 +78,22 @@ a{
 .buttons button
 {
     margin-top:6% ;
-    width: 16%;
+    width: 20%;
     height: 40px;
+    padding: 10px;
     border-radius: 15px;
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #26232e;
+    background-color: green;
     color: white;
     font-family: AdigianaToybox;
     font-size: 1.6rem;
-    box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 white ;
+    box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
 }
 .buttons button:hover,.btns:hover
 {
-    background-color: black;
+    background-color: darkgreen;
 }
 
 #buttons
@@ -103,22 +104,22 @@ a{
 #buttons button
 {
   margin-top:3% ;
-  width: 16%;
+  width: 20%;
   margin-left: 127%;
   height: 40px;
   border-radius: 15px;
   border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: white;
-  color: #26232e;
-  font-family: AdigianaToybox;
-  font-size: 2.3rem;
-  box-shadow:2px 5px 6px 0 #131314 ,0 5px 6px 2px #323038 , -2px -3px 4px 0 black ;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-family: AdigianaToybox;
+    font-size: 1.6rem;
+    box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
 }
 #buttons button:hover
 {
-  background-color: #26232e;
+  background-color: darkgreen;
   color: white;
 }
 
@@ -139,7 +140,7 @@ a{
 { 
   overflow: hidden; 
   padding: 15px; 
-  width: 77.8%; 
+  width: 51.8%; 
 margin-bottom: 2%;
 height:90px;
   position:relative;
@@ -340,10 +341,12 @@ height:90px;
 }
 .features img
 {
-   width: 40%;
-   height: 70%;
-   margin-top: 5%;
-   cursor: pointer;
+  width: 60%;
+  height: 79%;
+  margin: 4% 0%;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px grey;
+  border-radius: 60%;
 }
 /* carouselll */
 .charctersslider
@@ -527,25 +530,43 @@ height:90px;
 
 .seeall
 {
-  font-size: 1.7rem;
-  color: rgb(28, 28, 51);
-  font-weight: bolder;
-  width: 15%;
-  margin: auto;
-  margin-bottom: 2%;
-  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-family: AdigianaToybox;
+  font-size: 1.6rem;
+  box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
+}
+.seeall:hover
+{
+  background-color: darkgreen;
+  color: white;
 }
 .seeall2
 {
   width: fit-content;
   padding: 10px;
-  margin: auto;
-  margin-top: 3%;
-  font-size: 1.7rem;
-  color: rgb(28, 28, 51);
-  font-weight: bolder;
-  margin-bottom: 2%;
-  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-family: AdigianaToybox;
+  font-size: 1.6rem;
+  box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
+}
+.seeall2:hover
+{
+  background-color: darkgreen;
+  color: white;
 }
 
 /* CLOSED STUDENTS SAY ABOUT US------------------------------------------------------------------------------------> */
@@ -598,17 +619,19 @@ height:90px;
 }
 .mailbutton
 {
-  margin-top: 5%;
-  width: 16%;
-  height: 40px;
-  border-radius: 16px;
+  width: 20%;
+  padding-bottom: 10px;
+  border-radius: 15px;
   border: none;
   outline: none;
-  font-weight: bold;
-  font-size: 1.4rem;
-  color: white!important;
-  background-color: #2b4b91;
-  box-shadow: 2px 3px 7px #23262c, 0 3px 7px 2px #23262c;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+  font-family: AdigianaToybox;
+  font-size: 1.6rem;
+  opacity: 0.9;
+  box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
 }
 .mailbutton button
 {
@@ -625,7 +648,7 @@ height:90px;
 }
 .mailbutton:hover
 {
-  background-color: #081124;
+  opacity: 1;
   color:white;
 }
 
@@ -731,10 +754,23 @@ height:90px;
 }
 .meetallcontri a
 {
-  font-size: 1.7rem;
-  color: rgb(28, 28, 51);
-  font-weight: bolder;
-  box-shadow: 3px 5px 6px rgb(41, 41, 54);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-family: AdigianaToybox;
+  font-size: 1.6rem;
+  box-shadow: 2px 9px 6px 0 #131314, 0 5px 6px 2px #323038;
+}
+.meetallcontri a:hover
+{
+background-color: darkgreen;
+color: white;
 }
 
 
@@ -764,6 +800,18 @@ height:90px;
 {
   width: 70px; 
 
+}
+.pandalogo
+{
+ width: 90px;
+ 
+}
+.pandalogo img
+{
+   width: 85px;
+   height: 80px;
+   border: 2px solid teal;
+   border-radius: 50%;
 }
 .footercopyrightlinks
 {
@@ -1119,9 +1167,9 @@ width: 100%;
 #buttons button
 {
 margin-top: 3%;
-width: 40%;
-margin-left: 40%;
-font-size: 18px;
+width: 58%;
+margin-left: 19%;
+font-size: 14px;
 }
 
 
@@ -1174,7 +1222,7 @@ font-size: 18px;
 }
 .mailbutton
 {
-  width:34%;
+  width:27%;
   margin-bottom: 4%;
 }
 .mailbutton button 
@@ -1195,7 +1243,7 @@ font-size: 18px;
   .navbar img
 {
     width: 35%;
-    height: 50%;
+    height: 75%;
     margin:auto;
 }
 }
