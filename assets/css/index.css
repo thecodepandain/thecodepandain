@@ -148,7 +148,7 @@ a{
 { 
   overflow: hidden; 
   padding: 15px; 
-  width: 51.8%; 
+  width: 77.8%; 
 margin-bottom: 2%;
 height:90px;
   position:relative;
@@ -437,6 +437,7 @@ height:90px;
   padding-top: 4%;
   text-align: center;
   padding-bottom: 2%;
+  background-color: whitesmoke;
 }
 .reviewfeedback
 {
