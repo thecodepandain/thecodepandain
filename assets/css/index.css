@@ -430,6 +430,12 @@ height:90px;
  }
 
 /* WHAT OUR STUDENTS SAY--------------------------------------------------------------------------------------> */
+.leanr-card{
+  display:flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 .REVIEWSS
 {
   width: 100%;
@@ -907,21 +913,21 @@ font-size: 13px;
   }
   50% 
   {
-    background: url('../images/characters/echo.gif');
+    background: url('../images/characters/echo.png');
     background-repeat: no-repeat;
     background-size: 400px  450px;
     background-position: center;
   }
   75% 
   {
-    background: url('../images/characters/pico.gif');
+    background: url('../images/characters/pico.png');
     background-repeat: no-repeat;
     background-size: 400px  450px;
     background-position: center;
   }
   100% 
   {
-    background: url('../images/characters/rubics.gif');
+    background: url('../images/characters/rubics.png');
     background-repeat: no-repeat;
     background-size: 400px  450px;
     background-position: center;
@@ -1181,9 +1187,9 @@ margin-left: 19%;
 font-size: 14px;
 }
 
-
-
-
+.leanr-card{
+  flex-direction: column;
+}
 
 .featuresimges
 {

@@ -36,13 +36,17 @@
     </div>
     <h2 style="color: #666666; font-size: 1.6rem; padding-bottom: 2%;">See what we are working on.</h2>
   </div>
+  
   <div class="container" id="tabcontainer">
+  <!-- <div class="row"> -->
     <div class="tab">
       <button class="tablinks active" onmouseover="openCity(event, 'London')">Current</button>
       <button class="tablinks" onmouseover="openCity(event, 'Paris')">Planned</button>
       <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">Finished</button>
     </div>
-
+  <!-- </div> -->
+<div class="flex">
+  <div class="col">
     <div id="London" class="tabcontent">
       <h3 style="margin-bottom: 1.5%; font-style: italic;">We're currently working on these features.</h3>
       <div class="current">
@@ -81,8 +85,9 @@
         </div>
       </div>
     </div>
+  </div>
 
-
+  <div class="col">
     <div id="Paris" class="tabcontent">
       <h3 style="margin-bottom: 1.5%; font-style: italic;">We're considering working on these features in the future.
       </h3>
@@ -121,7 +126,8 @@
         </div>
       </div>
     </div>
-
+  </div>
+  <div class="col">
     <div id="Tokyo" class="tabcontent">
       <h3 style="margin-bottom: 1.5%; font-style: italic;">We've completed this feature.</h3>
       <div class="current" style="display: flex; justify-content: space-between;">
@@ -164,54 +170,12 @@
     </div>
   </div>
   </div>
-
-  <div class="clearfix" style="height: 300px;"></div>
-
-  <script>
-    function openCity(evt, cityName) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.className += " active";
-    }
-    window.onload = function() {
-      document.getElementById("London").style.display = "block";
-    }
-    
-  </script>
   </div>
 
-  <!-- <nav>
-        <div class="navbar">
-            Progress BAR
-
-            <div class="progress-container" style="height: 10px; width: 100%; background-color:#3333; position: fixed !important;">
-          <div class="progress-bar" id="myBar" style="height: 10px;
-          background: #04AA6D;
-          width: 0%;"></div>
-          </div>
-
-            END PROGRESS BAR
-            <img src="assets/images/logo.jpg">
-
-            <div id="buttons">
-                <button> Learn</button>
-            </div>
-        </div>
-    </nav> -->
+  <div class="clearfix" style="height: 100px;"></div>
 
 
-
-
-
-  <footer style="height: 70%;">
+  <footer>
     <div class="footer">
       <div class="footerlogo">
         <img src="assets/images/logoHome.png">
@@ -239,6 +203,26 @@
       </div>
     </div>
   </footer>
+  
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    window.onload = function() {
+      document.getElementById("London").style.display = "block";
+    }
+    
+  </script>
 
   <!--closed footer -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
