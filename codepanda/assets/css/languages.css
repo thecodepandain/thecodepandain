@@ -101,3 +101,9 @@ height:90px;
     height:80px;
     margin-top: -25%;
   }
+  
+@media only screen and (max-width: 992px){
+    .container{
+		visibility: hidden;
+	}
+}

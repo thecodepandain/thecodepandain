@@ -21,7 +21,7 @@
     top: 0;
     left: 0;
     content: '';
-    background: rgba(255,0,0,0.31);
+    background: rgb(109,71,217,0.6);
     transform: scaleX(0);
     transform-origin: right;
     transition: transform 0.25s ease-out;
