@@ -1,0 +1,687 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap'); */
+body
+{
+    background-color: whitesmoke;
+    background-size: cover;
+    font-size:13px !important;
+   
+}
+
+.Aboutus
+{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: #6d47d9;
+    padding-bottom: 3%;
+    background-image: url('../images/navbar.png');
+    background-size: cover;
+    border-bottom: 1px solid rgb(#6d47d9);
+    background: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    /* https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg */
+    background-color: #6d47d9;
+}
+.Aboutus h3
+{
+    margin-top:3%;
+    font-size: 2.5rem;
+    /* opacity: .7; */
+    font-family: din-round, sans-serif;
+    font-weight: 900;
+    line-height: 36px;
+}
+.Aboutus h4
+{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    opacity: .7;
+}
+.aboutuspara
+{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: din-round, sans-serif;
+
+}
+.aboutuspara p
+{
+    margin-top: 3%;
+    /* opacity: .7; */
+    font-weight: 900;
+    line-height: 26px;
+    font-family: dins,sans-serif;
+   
+}
+.Aboutus h5
+{
+    font-size: 1.3rem;
+    margin-top: 1%;
+    font-weight: 900;
+    line-height: 26px;
+    font-family: dins,sans-serif;
+  
+}
+.Aboutus img
+{
+    width: 40%;
+    margin: auto;
+}
+.Aboutus a
+{
+    text-decoration: none;
+    margin-top: 1%;
+    color: #fff;
+    margin: auto;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: dins,sans-serif;
+}
+.box3{
+width: 80%;
+margin: auto;
+}
+.MissionVission
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    color: black;
+    background-size: cover;
+    padding-bottom: 2%;
+    /* border-bottom: 1px solid rgb(65, 62, 62); */
+
+
+}
+.missionimage
+{
+    width: 40%;
+    text-align: center;
+}
+.missionimage img
+{
+    width: 70%;
+    margin-top: -5%;
+}
+.missionpara
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 3%;
+}
+.vision_mission 
+{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin: 3% 0%; 
+    /* opacity: .7; */
+    font-family: dins,sans-serif;
+    
+
+}
+.vision_mission h3{
+    font-size: 2.5rem;
+    font-family: dins,sans-serif;
+    font-weight: 900;
+    line-height: 30px;
+}
+.missionpara h4
+{
+    font-size: 24px;
+    margin-top: 1%;
+    color: midnightblue;
+    text-align: start;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgb(60,60,60);
+    font-family: din-round,sans-serif;
+}
+.missionpara p
+{
+    font-size: 17px;
+    margin-top: 2%;
+    font-family: ui-serif;   
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    text-align: start;
+    font-weight: 500;
+    font-family: din-round,sans-serif;
+    color: rgb(119,119,119);
+}
+
+.img-fix{
+    width: 12rem;
+    /* margin-left: 150px; */
+}
+
+.fix-para{
+    font-size: 17px;   
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
+    text-align: start;
+    font-weight: 500;
+    font-family: din-round,sans-serif;
+    color: rgb(119,119,119);
+    
+}
+.set-heading-h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    font-family: dins,sans-serif;
+}
+.visit-button{
+    font-family: dins,sans-serif;
+}
+.hr{
+    width: 80%;
+    margin:auto;
+    height: 2px;
+    border-radius: 10px;
+    background-color: darkgray;
+    /* margin-right: 3rem; */
+}
+.meeetourteam
+{
+    width: 100%;
+    color: black;
+    background-size: cover;
+    text-align: center;
+    padding-top: 1%;
+    border-bottom: 1px solid rgb(65, 62, 62);
+}
+.meeetourteam h4
+{
+    text-align: center;
+    font-size: 2rem;
+    color: #6c757d;
+    padding-bottom: 2%;
+}
+.teammates,.teammates2
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+}
+
+.teammates2
+{
+    display:none;
+    transition: all 1.3s ease-in-out;
+}
+#downcart
+{
+    cursor: pointer;
+}
+#check
+{
+    display: none;
+}
+#check:checked~.teammates2
+{
+    display: flex;
+}
+.contactme
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.5%;
+}
+.contactme a
+{
+    margin: 0 6px;
+    margin-top: 1%;
+    color: black;
+}
+.contactme a:hover
+{
+    transform: scale(1.1);
+}
+.first
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    border :2px solid transparent ;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+.first img
+{
+    width: 65%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+}
+
+ section
+ {
+    /* background-image: url(../images/Home.png); */
+    background-size: cover;
+    color: black;
+    /* border-bottom: 1px solid rgb(65, 62, 62); */
+    padding-bottom: 2%;
+ }
+
+h1{
+    margin:50px 0 30px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+.fa-container{
+    width: 50%;
+    margin:0 auto;
+}
+.faq{
+    background-color:transparent;
+    border: 1px solid #9fa4a8;
+    border-radius:10px;
+    margin: auto;
+    padding:30px;
+    width: 90%;
+    position:relative;
+    overflow:hidden;
+    transition: 0.3s ease;
+    margin-top: .2%;
+}
+.faq.active{
+  
+    box-shadow:O 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.faq.active::before, 
+.faq.active::after{
+    content:"\f075";
+    font-family: "Font Awesome 5 Free";
+    color:#2ecc71;
+    font-size:7rem;
+    position:absolute;
+    opacity:0.2;
+    top:20px;
+    left:20px;
+    z-index:0;
+
+}
+.faq.active::before{
+    color:#3498db;
+    top:-10px;
+    left:-30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title{
+
+    height: min-content;
+}
+.faq-text{
+    display:none;
+    height: min-content;
+}
+.faq.active .faq-text{
+    display:block;
+}
+.faq-toggle{
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16px;
+    position: absolute;
+    top: 30px;
+    right:30px;
+    height:30px;
+    width:30px;
+    color: #070606;
+}
+.faq-toggle:focus{
+outline:0;
+}
+.faq-toggle .fa-times{
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times{
+    display: block;
+    color: black;
+}
+
+.faq.active .faq-toggle .fa-chevron-down{
+    display: none;
+}
+.faq.active .faq-toggle{
+    background-color: #9FA4A8;
+}
+
+
+
+
+.footer
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+ background-color: #152a57; 
+   /* background-color: rgb(8, 8, 22);  */
+   margin-bottom: .1%;
+   border-bottom:2px solid black;
+}
+.footerlogo
+{
+ width: 8%;
+ text-align: center;
+ border-right: .1px solid rgb(248, 244, 244,.4);
+}
+
+.footerlogo img
+{
+  width: 70px; 
+
+}
+.footercopyrightlinks
+{
+display: flex;
+flex-direction: column;
+justify-content: end;
+width: 30%;
+text-align: center;
+align-items: center;
+padding-bottom: .5%;
+}
+.footerlinks
+{
+  display: flex;
+  flex-direction: row;
+}
+.footerlinks a, .footercopyrightlinks a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+.socialmediaandourcompany
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 70%;
+  align-items: flex-end;
+  padding-bottom: .5%;
+}
+.connectuswithsocialmedia
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.connectuswithsocialmedia a ,.socialmediaandourcompany a
+{
+  margin: 2px 5px;
+  color: whitesmoke;
+  opacity: .8;
+  text-decoration: none;
+}
+@media only screen and (max-width:1090px)
+{
+    .footer
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .footerlogo,.footercopyrightlinks,.socialmediaandourcompany
+    {
+     width: 100%;
+    }
+    .socialmediaandourcompany
+    {
+     align-items: center;
+    }
+    
+    .first 
+    {
+        width: 22%;
+    }
+    .first img
+    {
+        width: 70%;
+        height: 120px;
+        margin-top: 6%;
+        margin-bottom: 4%;
+        border-radius: 5px;
+        box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+    
+    }
+    .first img
+{
+    width: 80%;
+    height: 180px;}
+
+}
+
+@media only screen and (max-width:920px)
+{
+    .teammates
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.first
+{
+    width: 35%;
+}
+.first img
+{
+    width: 75%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+
+@media only screen and (max-width:710px)
+{
+
+.first
+{
+    width: 45%;
+}
+.first img
+{
+    width: 70%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+} 
+
+
+@media only screen and (max-width:600px)
+{
+    .Aboutus h4
+    {
+        padding: 4px;
+        font-size: 18px;
+    }
+    .aboutuspara
+    {
+                padding: 5px;
+                font-size: 14px;
+    
+    }
+
+    .MissionVission
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+.missionimage
+{
+    width: 100%;
+}
+.missionpara
+{
+    width: 100%;
+    padding: 15px;
+}
+.missionpara h4{
+    font-size: 1.7rem;
+    opacity: .8;
+}
+.missionpara p
+{
+    font-size: 13px;
+    opacity: 1;
+}
+
+.whycharacterused img
+{
+    width: 60%;
+    margin: auto;
+}
+.whycharacterused p
+{
+    padding: 2%;
+    opacity: .8;
+    padding-bottom: 3%;
+    font-size: 13px;
+}
+
+.teammates,.teammates2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.teammates2
+{
+    display:none;
+    transition: all 1.3s ease-in-out;
+}
+#downcart
+{
+    cursor: pointer;
+}
+#check
+{
+    display: none;
+}
+#check:checked~.teammates2
+{
+    display: flex;
+}
+.first
+{
+    width: 50%;
+}
+.first img
+{
+    width: 70%;
+    height: 200px;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px 0px rgb(8, 8, 22),0px 5px 6px 0px rgb(8, 8, 22);
+
+}
+.faq
+{
+    width: 97%;
+}
+
+.faq-container  {
+
+    height: min-content;
+    margin: 3px;
+}
+.faq-toggle
+{
+    margin-right: -30px;
+}
+
+#faq_h1 h1
+{
+    color: #6c757d;
+    font-size: 23px !important;
+}
+
+}
+@media only screen and (max-width:466px) and (min-width:431px)
+{
+    .first
+    {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:430px) and (min-width:401px)
+{
+    .first
+    {
+        width: 65%;
+    }
+}
+@media only screen and (max-width:400px)
+{
+    .first
+    {
+        width: 75%;
+    }
+    #faq_h1 h1
+{
+    color: #6c757d;
+    font-size: 23px !important;
+}
+}
+}
+}
+
+
+.box4{
+    /* margin-top: 50px; */
+    /* height: 500px; */
+    background: url(https://d35aaqx5ub95lt.cloudfront.net/images/star-pattern.svg);
+    /* https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg */
+    background-color: #6d47d9;
+    border: 1px solid #6d47d9;
+	color: White;
+   }
+   .footer-row{
+       width: 80%;
+       margin: auto;
+	   margin-bottom: 5%;
+   }

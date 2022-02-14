@@ -91,4 +91,13 @@
   .btn-3 span:hover:after {
     width: 100%;
   }
-    
+  @media only screen and (max-width: 600px) {
+  .fix-button1{
+	visibility: hidden;	
+  }
+  .btn-fix{
+	margin-right: 0px;
+    display: grid;
+    margin-top: -41px;
+  }
+}     
